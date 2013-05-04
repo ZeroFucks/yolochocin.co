@@ -11,4 +11,14 @@ $(document).ready(function() {
         $("#mp3Source").attr("src", mp3).detach().appendTo("#player");
         $("#player")[0].play();
     });
+
+    // Preload some music
+    $(".board-button").each(function () {
+        var mp3 = $(this).attr("data-mp3");
+        $.ajax({
+            url: mp3,
+            type: 'GET',
+            success: function(res) {}
+        });
+    });
 });
