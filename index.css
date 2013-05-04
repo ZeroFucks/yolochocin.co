@@ -17,3 +17,8 @@ div.poopdiv {
 span.smaller-text {
    font-size: 55px;
 }
+
+div.soundboard {
+   /* Start hidden */
+   display: none;
+}
