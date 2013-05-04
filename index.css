@@ -15,6 +15,9 @@ div.poopdiv {
    margin: auto;
 
    text-align: center;
+
+   cursor: hand;
+   cursor: pointer;
 }
 span.smaller-text {
    font-size: 55px;
