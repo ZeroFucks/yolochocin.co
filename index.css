@@ -1,3 +1,7 @@
+body {
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
 div.poopdiv {
    width: 348px;
    height: 373px;
@@ -11,8 +15,6 @@ div.poopdiv {
    margin: auto;
 
    text-align: center;
-   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
 }
 span.smaller-text {
    font-size: 55px;
@@ -21,4 +23,27 @@ span.smaller-text {
 div.soundboard {
    /* Start hidden */
    display: none;
+
+   width: 1040px;
+   height: 520px;
+
+   position: absolute;
+   top:0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+
+   margin: auto;
+}
+
+div.board-button {
+   height: 180px;
+   width: 180px;
+   background-color: #9FF781;
+   float: left;
+   margin: 20px;
+   padding: 20px;
+   text-align: center;
+   font-size: 30px;
+   line-height: 180px;
 }
