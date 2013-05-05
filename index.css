@@ -49,4 +49,6 @@ div.board-button {
    text-align: center;
    font-size: 30px;
    line-height: 180px;
+   cursor: hand;
+   cursor: pointer;
 }
