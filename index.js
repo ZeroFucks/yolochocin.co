@@ -7,9 +7,9 @@ $(document).ready(function() {
 
     // Player
     $(".board-button").click(function () {
-        var mp3 = $(this).attr("data-mp3");
-        $("#mp3Source").attr("src", mp3).detach().appendTo("#player");
-        $("#player")[0].play();
+        var mp3 = $(this).attr("data-mp3")
+        $("#player").attr("src", mp3)
+        $("#player")[0].play()
     });
 
     // Preload some music
